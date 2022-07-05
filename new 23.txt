@@ -1,0 +1,55 @@
+[
+            {
+                "indexFieldName": "_created_at",
+                "indexFieldType": "DATE",
+                "dateFieldFormat": "yyyy-MM-dd'T'hh:mm:ss'Z'",
+                "dataSourceFieldName": "createdAt"
+            },
+            {
+                "indexFieldName": "_last_updated_at",
+                "indexFieldType": "DATE",
+                "dateFieldFormat": "yyyy-MM-dd'T'hh:mm:ss'Z'",
+                "dataSourceFieldName": "lastUpdatedAt"
+            },
+            {
+                "indexFieldName": "_authors",
+                "indexFieldType": "STRING_LIST",
+                "dataSourceFieldName": "authors"
+            },
+            {
+                "indexFieldName": "_source_uri",
+                "indexFieldType": "STRING",
+                "dataSourceFieldName": "sourceUri"
+            },
+            {
+                "indexFieldName": "_category",
+                "indexFieldType": "STRING",
+                "dataSourceFieldName": "category"
+            },
+            {
+                "indexFieldName": "_version",
+                "indexFieldType": "STRING",
+                "dataSourceFieldName": "versions"
+            },
+            {
+                "indexFieldName": "wd_document_id",
+                "indexFieldType": "STRING",
+                "dataSourceFieldName": "documentId"
+            },
+            {
+                "indexFieldName": "StringAttribute",
+                "indexFieldType": "STRING",
+                "dataSourceFieldName": "StringAttribute"
+            },
+            {
+                "indexFieldName": "LongAttribute",
+                "indexFieldType": "LONG",
+                "dataSourceFieldName": "10"
+            },
+            {
+                "indexFieldName": "DateAttribute",
+                "indexFieldType": "DATE",
+                "dataSourceFieldName": "DateAttribute",
+                "dateFieldFormat": "2022-05-22'9'45:32:32'530'"
+            }
+        ]
